@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <header id="header"><h1><span class="text-primary">Tic</span> Tac Toe</h1>
+  </header>
+  
+  <div class="main-container">
+    <div id="form-container">
+      <div class="form-group">
+        <label for="name" id="name">Player 1 Name</label>
+        <input type="text" class="name-input" id="p1-name-input" placeholder="Enter Player 1 Name here">
+      </div>
+      <div class="form-group">
+        <label for="name" id="name">Player 2 Name</label>
+        <input type="text" class="name-input" id="p2-name-input" placeholder="Enter Player 2 Name here">
+      </div>
+      <div class="form-group">
+        <input class= "btn-dark" id="submit-btn" type="submit" value="Submit">
+      </div>
+    </div>
+    <div id="player-display">
+      <div id="player1-display">
+        <div class="player-name"> Player 1</div>
+        <div class="player-score">0</div>
+      </div>
+      <div id="player2-display">
+        <div class="player-name"> Player 2</div>
+        <div class="player-score">0</div>
+      </div>
+    </div>
+  <div class="game-board-container">
+    <div id="game-board">
+      
+    </div>
+    <div class="dummy-div"></div>
+  </div>
+  </div>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
